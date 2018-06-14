@@ -64,7 +64,7 @@ body {
  margin: 0 0 20px 0;
  font-weight: 600;
  line-height: 1.4;
- font-size: 1.4em;
+ font-size: 1.6em;
  }
 
 
@@ -72,21 +72,21 @@ body {
    margin: 0 0 20px 0;
    font-weight: 300;
    line-height: 1.6;
-   font-size: 1em;
+   font-size: 1.2em;
  }
 
  .reveal h3 {
    margin: 0 0 20px 0;
    font-weight: 600;
    line-height: 1.6;
-   font-size: 1em;
+   font-size: 1.2em;
  }
 
  .reveal h4 {
      margin: 0 0 20px 0;
      font-weight: 300;
      line-height: 1.6;
-     font-size: 1em;
+     font-size: 1.2em;
      font-style: italic;
  }
 
@@ -94,8 +94,8 @@ body {
    margin: 0 0 20px 0;
    text-align: left;
    font-weight: 300;
-   line-height: 1.2;
-   font-style: italic;
+   line-height: 1.8;
+   font-size: 1 em;
  }
 
  .reveal h6 {
@@ -289,7 +289,17 @@ body {
   }
 
   .reveal .slides section .fragment.lightgreen.visible {
+    color: #7cff9b;
+  }
+
+  .reveal .slides section .fragment.fadegreen {
     color: #3dff6a;
+    opacity: 1;
+    visibility: inherit;
+  }
+  .reveal .slides section .fragment.fadegreen.visible {
+    opacity: 1;
+    color: white;
   }
 
   .smallest {
@@ -314,7 +324,7 @@ body {
 
   .intro {
     text-align: left;
-    color: #353535;
+    color: black;
     position: relative;
     margin-top: 5% !important;
   }
@@ -325,6 +335,7 @@ body {
     position: absolute;
     text-align: left;
     top: 50%;
+    left: 7%;
     transform: translate(0, -50%);
   }
 
@@ -386,16 +397,16 @@ body {
        opacity: 0.2; }
 
   .orange {
-      color: #ff6600;
+      color: #ffa366;
       text-align: left;
   }
 
   .blue {
-      color: #00b2ff;
+      color: #99e6ff;
       text-align: left;
   }
   .green {
-      color: #3dff6a;
+      color: #7cff9b;
       text-align: left;
   }
 
@@ -631,14 +642,14 @@ body {
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #3dff6a; }
+  color: #7cff9b; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #3dff6a; }
+  color: #7cff9b; }
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
